@@ -39,7 +39,6 @@ public class FormsCheck {
         Triangle triangle = new Triangle("rosu", 3, 4);
         System.out.println(circle);
         System.out.println(triangle);
-
         System.out.println();
         //f)
         //Cand stocam un obiect dintr-o clasa derivata intr-o variabila de tipul clasei de baza (upcasting), avem acces doar la metodele din clasa de baza. 
