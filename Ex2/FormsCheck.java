@@ -42,10 +42,8 @@ public class FormsCheck {
 
         System.out.println();
         //f)
-        //Observam ca desi se produce fenomenul de upcasting,iar obiectul pe care
-        //il obtinem nu ne mai permite sa accesam metodele din subclasa,dar
-        //in momentul in care folosim metoda toString() din superclasa,la executie o va apela
-        //pe cea suprascrisa din subclasa,tinand cont de instanta obiectului ,realizandu-se astfel polimorfismul dinamic.
+        //Cand stocam un obiect dintr-o clasa derivata intr-o variabila de tipul clasei de baza (upcasting), avem acces doar la metodele din clasa de baza. 
+        //Totusi, daca in subclasa exista o metoda suprascrisa (de exemplu, toString()), Java va apela la executie varianta din subclasa, ilustrand polimorfismul dinamic.
         Form [] forms = new Form[4];
         forms[0] = new Circle("albastru", 2);//upcasting
         forms[1] = new Triangle("galben", 3, 4);
