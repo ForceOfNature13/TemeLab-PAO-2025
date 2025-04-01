@@ -1,1 +1,1 @@
-# Acest repository conține rezolvările temelor de Programare Orientată pe Obiecte (PAO). 
+# Acest repository conține rezolvările temelor de Programare Avansată pe Obiecte (PAO) în Java.
