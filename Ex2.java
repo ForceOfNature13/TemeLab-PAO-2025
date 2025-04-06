@@ -123,8 +123,10 @@ public class Ex2 {
 
        int [] v3=interclasare(v1,v2);
 
-         System.out.println("Sirul interclasat: ");
-
-         System.out.println(Arrays.toString(v3));
+       System.out.println("\nTabloul 1 sortat:  " + Arrays.toString(v1));
+       
+       System.out.println("Tabloul 2 sortat:  " + Arrays.toString(v2));
+       
+       System.out.println("Tabloul interclasat (v3): " + Arrays.toString(v3));
     }
 }
