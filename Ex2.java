@@ -102,12 +102,20 @@ public class Ex2 {
      }
 
     public static void main(String[] args) {
+        // Cream primul tablou
+        System.out.println("crearea primului tablou:\n");
+        int[] v1 = creeaza_tablou_unidimensional();
+        System.out.println();
 
-       int [] v1=creeaza_tablou_unidimensional();
-
-       System.out.println();
-
-       int [] v2=creeaza_tablou_unidimensional();
+        // Cream al doilea tablou, cu verificare de lungime diferita fata de primul
+        int[] v2;
+        do {
+            System.out.println("crearea celui de-al doilea tablou (lungime diferita de primul):\n");
+            v2 = creeaza_tablou_unidimensional();
+            if(v2.length == v1.length){
+                System.out.println("Dimensiunea celui de-al doilea tablou nu poate fi aceeasi cu a primului. Incercati din nou!\n");
+            }
+        } while(v2.length == v1.length);
 
        selectionSort(v1);
 
